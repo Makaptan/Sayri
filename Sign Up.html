@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sayri Sign Up</title>
+  <link rel="stylesheet" href="Sign Up.css"/>
+</head>
+<body>
+  <header class="header">
+    <img src="logo.png" alt="Sayri" class="site-logo"/>
+    <nav class="nav-links">
+      <a href="Home.html">Home</a>
+      <a href="About Us.html">About Us</a>
+      <a href="Blog.html">Blog</a>
+      <a href="Log In.html">Log In</a>
+      <a href="Sign Up.html">Sign Up</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <form class="signup-form">
+      <img src="logo2.png" alt="Sayri" style="width: 310px; margin: auto; margin-bottom: 20px;">
+      <button type="button" class="sayri-btn">Sign up with Google</button>
+      <div class="divider"><span>or</span></div>
+      <input type="email" placeholder="Email" required />
+      <input type="email" placeholder="Confirm email" required />
+      <input type="password" placeholder="Password" required />
+      <input type="text" placeholder="What do you wanna be called?" required/>
+      
+      <label><strong>Date of Birth:</strong></label>
+      <div class="birth">
+        <input type="text" placeholder="Month" required />
+        <input type="text" placeholder="Day" required />
+        <input type="text" placeholder="Year" required />
+      </div>
+
+      <div class="gender">
+        <label><input type="radio" name="gender" /> Male</label>
+        <label><input type="radio" name="gender" /> Female</label>
+        <label><input type="radio" name="gender" /> Secret</label>
+      </div>
+
+      <label class="checkbox">
+        <input type="checkbox"/> I allow you to share my data cuh!
+      </label>
+
+      <button type="submit" class="signup-btn">Sign Up</button>
+
+      <p class="terms">By clicking on sign up, you agree to Sayri!</p>
+    </form>
+  </div>
+</body>
+</html>
